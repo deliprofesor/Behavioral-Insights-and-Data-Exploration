@@ -1,3 +1,5 @@
+install.packages("jsonlite")
+install.packages("rstatix")
 
 # Read the AirbnbNewyork.csv file
 AirbnbNewyork <- read.csv("/home/yorgun/r_tube/Rcode/data_models/AirbnbNewyork.csv")
