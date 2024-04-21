@@ -1,12 +1,13 @@
 
 # Read the AirbnbNewyork.csv file
-AirbnbNewyork <- read.csv("/home/yorgun/r_tube/Rcode/veri_modelleri/AirbnbNewyork.csv")
+AirbnbNewyork <- read.csv("/home/yorgun/r_tube/Rcode/data_models/AirbnbNewyork.csv")
 
 # View the data set
 View(AirbnbNewyork)
 
-# Load the rstatix package
+# Load the packages
 library(rstatix)
+library(jsonlite)
 
 # Check the documentation for the identify_outliers function
 ?identify_outliers
