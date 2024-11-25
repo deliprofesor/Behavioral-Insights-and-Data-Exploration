@@ -6,26 +6,26 @@ Bu proje, İspanyolca Konuşma Verilerinin Analizi üzerine odaklanan bir veri a
 
 Veri Seti Parametreleri:
 
-_ **cdur: Konuşma sırasında ölçülen sürenin bir bölümü.**
-_ **vdur: Sesli harf süresi.**
-_ **place: Artikülasyon yeri (ör. Velar, Dental).**
-_ **stress: Vurgunun tipi (ör. Tonic, Unstressed).**
-_ **prevowel ve posvowel: Önceki ve sonraki sesli harfler.**
-_ **wordpos: Kelime içindeki pozisyon (ör. Initial, Medial).**
-_ **wordfreq: Kelimenin frekansı (kullanım sıklığı).**
-_ **speechrate: Konuşma hızı.**
-_ **sex: Konuşmacının cinsiyeti (Kadın veya Erkek).**
-_ **speaker: Konuşmacı kimliği (ör. s01).**
+- **cdur: Konuşma sırasında ölçülen sürenin bir bölümü.**
+- **vdur: Sesli harf süresi.**
+- **place: Artikülasyon yeri (ör. Velar, Dental).**
+- **stress: Vurgunun tipi (ör. Tonic, Unstressed).**
+- **prevowel ve posvowel: Önceki ve sonraki sesli harfler.**
+- **wordpos: Kelime içindeki pozisyon (ör. Initial, Medial).**
+- **wordfreq: Kelimenin frekansı (kullanım sıklığı).**
+- **speechrate: Konuşma hızı.**
+- **sex: Konuşmacının cinsiyeti (Kadın veya Erkek).**
+- **speaker: Konuşmacı kimliği (ör. s01).**
 
 # Projenin Hedefleri
 
-_ **Veriyi temizlemek ve analiz etmek.**
-_ **Aykırı değerleri tespit etmek ve kaldırmak.**
-_ **Eksik verileri doldurmak.**
-_ **Akustik özellikler arasındaki ilişkileri incelemek.**
-_ **Veriyi normalizasyon ve standardizasyon gibi yöntemlerle ön işleme tabi tutmak.**
-_ **Özellik mühendisliği ile yeni değişkenler oluşturmak.**
-_ **Kümeleme analizi ve zaman serisi modelleme gibi ileri düzey analitik yöntemler uygulamak.**
+- **Veriyi temizlemek ve analiz etmek.**
+- **Aykırı değerleri tespit etmek ve kaldırmak.**
+- **Eksik verileri doldurmak.**
+- **Akustik özellikler arasındaki ilişkileri incelemek.**
+- **Veriyi normalizasyon ve standardizasyon gibi yöntemlerle ön işleme tabi tutmak.**
+- **Özellik mühendisliği ile yeni değişkenler oluşturmak.**
+- **Kümeleme analizi ve zaman serisi modelleme gibi ileri düzey analitik yöntemler uygulamak.**
 
 
 # Veri İncelemesi ve Eksik Veri Analizi
