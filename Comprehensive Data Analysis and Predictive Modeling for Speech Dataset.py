@@ -16,7 +16,7 @@ from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
 
 # 1. Veri Yükleme
-data_path = 'C:\\Users\\LENOVO\\Desktop\\Data-Models-R-main\\Data-Models-R-main\\PTK_Spanish_Speech_data.csv'
+data_path = 'PTK_Spanish_Speech_data.csv'
 df = pd.read_csv(data_path)
 
 # Veri inceleme
