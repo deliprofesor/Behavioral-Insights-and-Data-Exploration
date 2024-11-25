@@ -6,16 +6,16 @@ Bu proje, İspanyolca Konuşma Verilerinin Analizi üzerine odaklanan bir veri a
 
 Veri Seti Parametreleri:
 
-cdur: Konuşma sırasında ölçülen sürenin bir bölümü.
-vdur: Sesli harf süresi.
-place: Artikülasyon yeri (ör. Velar, Dental).
-stress: Vurgunun tipi (ör. Tonic, Unstressed).
-prevowel ve posvowel: Önceki ve sonraki sesli harfler.
-wordpos: Kelime içindeki pozisyon (ör. Initial, Medial).
-wordfreq: Kelimenin frekansı (kullanım sıklığı).
-speechrate: Konuşma hızı.
-sex: Konuşmacının cinsiyeti (Kadın veya Erkek).
-speaker: Konuşmacı kimliği (ör. s01).
+_ **cdur: Konuşma sırasında ölçülen sürenin bir bölümü.**
+_ **vdur: Sesli harf süresi.**
+_ **place: Artikülasyon yeri (ör. Velar, Dental).**
+_ **stress: Vurgunun tipi (ör. Tonic, Unstressed).**
+_ **prevowel ve posvowel: Önceki ve sonraki sesli harfler.**
+_ **wordpos: Kelime içindeki pozisyon (ör. Initial, Medial).**
+_ **wordfreq: Kelimenin frekansı (kullanım sıklığı).**
+_ **speechrate: Konuşma hızı.**
+_ **sex: Konuşmacının cinsiyeti (Kadın veya Erkek).**
+_ **speaker: Konuşmacı kimliği (ör. s01).**
 
 # Projenin Hedefleri
 
@@ -77,13 +77,13 @@ Zaman serisi verisinin trend ve mevsimsellik gibi bileşenleri seasonal_decompos
 ![zaman cdur](https://github.com/user-attachments/assets/978fd6ff-cebc-4b1c-ac9e-d26ecc235eff)
 
 
-#ARIMA (AutoRegressive Integrated Moving Average)
+# ARIMA (AutoRegressive Integrated Moving Average)
 
 ARIMA modeli, zaman serisi verilerinin trendlerini ve desenlerini modellemek ve gelecekteki değerleri tahmin etmek için kullanılan bir yöntemdir. ‘cdur’ (ses süresi) zaman serisi verisinin geçmiş değerlerine dayanarak, gelecekteki olası değerleri tahmin etmek için kullanıldı. ARIMA, trend (artış/azalış) ve sezonsal (dönemsel) bileşenlerin analizi için uygundur. Verideki geçmiş bağımlılıkları dikkate alır.
 
 ![ARIMA ](https://github.com/user-attachments/assets/cf2ccf75-0a0a-453c-aec5-843b501e6f92)
 
-#Holt-Winters Exponential Smoothing
+# Holt-Winters Exponential Smoothing
 
 Holt-Winters yöntemi, zaman serisi verilerindeki trend ve sezonsallık bileşenlerini modellemek için kullanılan bir yöntemdir. ‘cdur’ (ses süresi) verisinin hem trend hem de dönemsel (sezonsal) yapıya sahip olabileceğini varsaydık.
 
