@@ -1,4 +1,4 @@
-# Data-Models-R
+# Behavioral Insights and Data Exploration
 
 Bu proje, İspanyolca Konuşma Verilerinin Analizi üzerine odaklanan bir veri analitiği ve makine öğrenimi projesidir. Veri seti, İspanyolca konuşma sırasında kaydedilen akustik özellikleri ve bazı demografik bilgileri içerir. Aşağıda, projede kullanılan yöntemler ve veri setinin detayları açıklanmıştır:
 
